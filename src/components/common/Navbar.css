@@ -1,0 +1,41 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+nav .MenuItem {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 40vw;
+}
+
+nav .MenuItem li {
+    margin-left: 2vw;
+}
+
+nav .MenuItem a {
+    text-decoration: none;
+    color: grey;
+}
+
+nav .MenuItem a:hover {
+    color: white;   
+}
+
+nav button{
+    color: skyblue;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 36px;
+    padding: 12px 24px;
+    margin-left: 2vw;
+}
+
+nav button:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    color: skyblue;
+  }
